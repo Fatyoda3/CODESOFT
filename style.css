@@ -1,0 +1,30 @@
+.container {
+	background: #c89191;
+	transform: translate(50% , 50%);
+	border: 2px solid black;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	width: min-content;
+	padding: 10px;
+}
+
+.btnDiv {
+    border-radius: 10px;
+	border: 2px solid black;
+	margin: 15px;
+	padding: 10px;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+}
+button {
+	background-image: -moz-linear-gradient(orange, white, red);
+}
+body {
+	background-image: linear-gradient(red, white, yellow);
+}
+.box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
