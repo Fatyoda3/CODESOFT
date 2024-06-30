@@ -18,3 +18,4 @@ function displayResult() {
 function c() {
     v.value = "";
 }
+

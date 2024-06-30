@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+MX:wght@100..400&family=Playwrite+NZ:wght@100..400&display=swap');
+
+body {
+	font-family: Arial, sans-serif;
+	line-height: 1.6;
+	margin: 0;
+	padding: 0;
+    background-image: linear-gradient(rgb(231, 192, 192) , rgb(182, 106, 170),rgba(250, 3, 213, 0.507));
+}
+
+header {
+	font-family: 'Playwrite NZ', cursive;
+	background: #01575f;
+	color: #fff;
+	padding: 1rem 0;
+	text-align: center;
+}
+
+header h1 {
+	margin: 0;
+}
+
+header p {
+	margin: 0.5rem 0 0;
+}
+
+section {
+	color: rgb(255, 98, 0);
+	font-size: larger;
+	font-family: 'Playwrite MX', cursive;
+	padding: 2rem 1rem;
+	text-align: center;
+}
+
+#about img {
+	border-radius: 50%;
+	max-width: 150px;
+}
+
+#skills ul {
+	font-family: 'Segoe UI', Tahoma;
+	list-style: none;
+	padding: 0;
+}
+
+#skills li {
+	display: inline-block;
+	background: #c4baba;
+	margin: 0.5rem;
+	padding: 0.5rem 1rem;
+	border-radius: 4px;
+}
+
+.project {
+	margin-bottom: 2rem;
+}
+
+.project img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 4px;
+}
+
+footer {
+	background: #333;
+	color: #fff;
+	padding: 1rem 0;
+	text-align: center;
+}
+
+footer p {
+	margin: 0;
+}
+
+#contact {
+	font-family: 'Segoe UI', Tahoma;
+}
+
+
+.projectImg{
+	width: 360px;
+	
+}
